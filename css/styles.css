@@ -107,6 +107,20 @@ h3{
   color: #F5C15C;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  display: block;
+}
+
 /* =========================
    2 COLUMNAS
    ========================= */
