@@ -296,7 +296,7 @@ footer .stella-container{
    ========================= */
 
 @media (max-width: 991px){
-  /* Bootstrap breakpoint lg */
+  
   .two-col{
     flex-direction: column;
     align-items: flex-start;
