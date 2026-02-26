@@ -114,6 +114,11 @@ h3{
   margin: 0;
 }
 
+.navbar-brand{
+  position: relative;
+  top: 3px; 
+}
+
 
 /* =========================
    2 COLUMNAS
