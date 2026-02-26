@@ -121,6 +121,11 @@ h3{
   display: block;
 }
 
+.navbar-brand img {
+  position: relative;
+  top: 2px; 
+}
+
 /* =========================
    2 COLUMNAS
    ========================= */
