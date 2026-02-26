@@ -114,9 +114,9 @@ h3{
   margin: 0;
 }
 
-.navbar-brand{
-  position: relative;
-  top: 15px; 
+.navbar-brand { 
+  transform: translateY(15px) !important;
+  outline: 3px solid red !important;
 }
 
 
