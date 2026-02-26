@@ -1,0 +1,107 @@
+@impot font;
+
+
+/* Reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Unidades de medida*/
+
+/* 1rem=16px   p */
+
+
+/* .contenedor{
+    background-color: #3F9AAE;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    height: 500px;
+    
+}
+
+.pixel{
+    background-color: #08CB00;
+    height: 100px;
+    width: 600px;
+}
+
+.porcentaje{
+    background-color:#ffa500 ;
+    height: 100px;
+    width: 50%;
+}
+
+.viewport{
+    background-color: #8F0177;
+    height: 100px;
+    width:50vw ;
+    height: 50vh;
+}
+ */
+
+
+
+
+
+
+
+
+
+/*Box model*/
+/* .box{
+    font-size: 2rem;
+    background-color: tomato;
+    border:  blue solid 5px;
+    padding: 100px 50px;
+    margin: 30px 50px ;
+
+    
+}
+
+.otro{
+    font-size: 2rem;
+    background-color: tomato;
+    
+   
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Flex box */
+
+.padreFlex{
+    background-color: tomato;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end ;
+
+
+}
+
+.hijoFlex{
+    width: 80px;
+    height: 50px;
+    border: solid black 3px;
+    background-color: cornflowerblue;
+}
