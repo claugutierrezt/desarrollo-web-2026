@@ -1,11 +1,14 @@
 @charset "UTF-8";
 /* Archivo principal de estilos */
+
 /* =========================
    VARIABLES
    ========================= */
+
 /* =========================
    ESTILOS GENERALES
    ========================= */
+
 * {
   box-sizing: border-box;
 }
@@ -24,6 +27,7 @@ img {
 /* =========================
    SALTAR CONTENIDO
    ========================= */
+
 .skip-link {
   position: absolute;
   left: -9999px;
@@ -46,7 +50,13 @@ img {
 /* =========================
    TÍTULOS
    ========================= */
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: 700;
   margin-top: 0;
@@ -60,6 +70,7 @@ h3 {
 /* =========================
    CONTENEDOR PROPIO
    ========================= */
+
 .stella-container {
   max-width: 1100px;
   margin: 0 auto;
@@ -77,6 +88,7 @@ h3 {
 /* =========================
    SECCIONES
    ========================= */
+
 .section {
   padding: 48px 0;
 }
@@ -84,6 +96,7 @@ h3 {
 /* =========================
    BOTÓN
    ========================= */
+
 button {
   background-color: #F5C15C;
   border: 1px solid #F5C15C;
@@ -92,10 +105,10 @@ button {
   cursor: pointer;
 }
 
-/* Archivo principal de estilos */
 /* =========================
    NAVBAR (BOOTSTRAP)
    ========================= */
+
 .navbar {
   background-color: #212529;
 }
@@ -128,6 +141,7 @@ button {
 /* =========================
    FOOTER
    ========================= */
+
 footer {
   border-top: 1px solid #ccc;
 }
@@ -136,19 +150,21 @@ footer .stella-container {
   padding: 10px 24px;
 }
 
-/* Archivo principal de estilos */
 /* =========================
    2 COLUMNAS
    ========================= */
+
 .two-col {
   display: flex;
   align-items: center;
   gap: 32px;
   flex-wrap: wrap;
 }
+
 .two-col > div {
   flex: 1 1 320px;
 }
+
 .two-col img {
   flex: 1 1 320px;
   max-width: 500px;
@@ -157,6 +173,7 @@ footer .stella-container {
 /* =========================
    HOME – 3 BOXES
    ========================= */
+
 .soluciones {
   display: flex;
   gap: 24px;
@@ -170,6 +187,7 @@ footer .stella-container {
   flex: 1 1 260px;
   background: #ffffff;
 }
+
 .solution-card img {
   width: 24px;
   margin-bottom: 10px;
@@ -178,10 +196,12 @@ footer .stella-container {
 /* =========================
    SECCIÓN CON FONDO
    ========================= */
+
 .solucion {
   background: #ffffff;
   padding: 48px 0;
 }
+
 .solucion.gris {
   background: #ededed;
 }
@@ -189,14 +209,17 @@ footer .stella-container {
 /* =========================
    CONTACTO
    ========================= */
+
 .contact-form {
   max-width: 800px;
 }
+
 .contact-form label {
   display: block;
   font-weight: 500;
   margin-bottom: 6px;
 }
+
 .contact-form input,
 .contact-form textarea,
 .contact-form select {
@@ -205,9 +228,11 @@ footer .stella-container {
   border: 1px solid #ccc;
   font-family: inherit;
 }
+
 .contact-form textarea {
   resize: vertical;
 }
+
 .contact-form > div {
   margin-bottom: 16px;
 }
@@ -217,6 +242,7 @@ footer .stella-container {
   gap: 24px;
   margin-bottom: 16px;
 }
+
 .form-row > div {
   flex: 1;
 }
@@ -224,6 +250,7 @@ footer .stella-container {
 /* =========================
    GALERÍA
    ========================= */
+
 #galeriaStella {
   margin-top: 24px;
   border-radius: 12px;
@@ -237,8 +264,7 @@ footer .stella-container {
 .stella-carousel-img {
   width: 500px;
   height: 500px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   margin: 0 auto;
   display: block;
 }
@@ -246,21 +272,22 @@ footer .stella-container {
 /* =========================
    GALERÍA PARA CELULAR
    ========================= */
+
 .stella-masonry-mobile {
   display: none;
 }
 
 /* =========================
-   MIXINS
-   ========================= */
-/* =========================
    GALERÍA PARA CELULAR
    ========================= */
+
 @media (max-width: 767px) {
+
   /* Ocultar slider en móvil */
   #galeriaStella {
     display: none;
   }
+
   /* Mostrar galería en celular */
   .stella-masonry-mobile {
     display: grid;
@@ -268,49 +295,59 @@ footer .stella-container {
     gap: 12px;
     margin-top: 24px;
   }
+
   .stella-masonry-mobile img {
     width: 100%;
     height: auto;
     border-radius: 8px;
   }
 }
+
 /* =========================
    RESPONSIVE
    ========================= */
+
 @media (max-width: 991px) {
   .two-col {
     flex-direction: column;
     align-items: flex-start;
     gap: 18px;
   }
+
   .two-col img {
     max-width: 100%;
   }
+
   .soluciones {
     gap: 16px;
   }
+
   .solution-card {
     flex: 1 1 100%;
   }
+
   #galeriaStella {
     width: 100%;
   }
+
   .stella-carousel-img {
     width: 100%;
     height: 320px;
   }
 }
+
 /* =========================
    BANNERS ADAPTADOS
    ========================= */
+
 @media (max-width: 767px) {
   .hero-soluciones img {
     width: 100%;
     height: 400px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
+
 /* =========================
-   PARA CUANDO HAGA LO DE  TABLET
+   PARA CUANDO HAGA LO DE TABLET
    ========================= */
