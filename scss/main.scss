@@ -1,6 +1,8 @@
 /* Archivo principal de estilos */
 
 @use 'general';
+@use 'mixins';
 @use 'header-footer';
 @use 'index';
 @use 'media-queries';
+@use 'animations';

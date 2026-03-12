@@ -92,6 +92,9 @@ button {
   cursor: pointer;
 }
 
+/* =========================
+   MIXINS
+   ========================= */
 /* Archivo principal de estilos */
 /* =========================
    NAVBAR (BOOTSTRAP)
@@ -251,9 +254,6 @@ footer .stella-container {
 }
 
 /* =========================
-   MIXINS
-   ========================= */
-/* =========================
    GALERÍA PARA CELULAR
    ========================= */
 @media (max-width: 767px) {
@@ -312,5 +312,32 @@ footer .stella-container {
   }
 }
 /* =========================
-   PARA CUANDO HAGA LO DE  TABLET
+   AJUSTES RESPONSIVE PARA TABLET
    ========================= */
+/* Espacio reservado para futuros ajustes */
+/* =========================
+   ANIMACIONES
+   ========================= */
+@keyframes slideInUpSoft {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Animar el título */
+.titulo-animado {
+  animation: slideInUpSoft 1s ease-in-out;
+}
+
+/* Imagen index con zoom suave */
+.imagen-zoom-suave {
+  transition: transform 0.5s ease-in-out;
+}
+
+.imagen-zoom-suave:hover {
+  transform: scale(1.04);
+}/*# sourceMappingURL=main.css.map */

@@ -50,14 +50,14 @@
 <section class="section">
   <div class="stella-container two-col">
     <div>
-      <h1>Accesibilidad real para sitios HTML</h1>
+      <h1 class="titulo-animado">Accesibilidad real para sitios HTML</h1>
       <p>
         Detectamos y corregimos problemas de accesibilidad directamente en la estructura HTML y WordPress.
         Stella A11y te acompaña a mejorar la navegación jerárquica, cumplir con los estándares WCAG,
         optimizar el SEO técnico y construir experiencias web inclusivas. ¡Diseño para todos!
       </p>
     </div>
-    <img src="images/fondo2.jpg" alt="Ilustración sobre accesibilidad web">
+    <img class="imagen-zoom-suave" src="images/fondo2.jpg" alt="Ilustración sobre accesibilidad web">
   </div>
 </section>
 
@@ -100,62 +100,65 @@
     <h2>Contacto</h2>
     <form class="contact-form" novalidate>
 
-  <div class="form-row">
-    <div>
-      <label for="nombre">Nombre completo</label>
-      <input 
-        type="text" 
-        id="nombre" 
-        name="nombre"
-        placeholder="Escribe tu nombre completo"
-        autocomplete="name"
-        required>
-    </div>
+      <div class="form-row">
+        <div>
+          <label for="nombre">Nombre completo</label>
+          <input 
+            type="text" 
+            id="nombre" 
+            name="nombre"
+            placeholder="Escribe tu nombre completo"
+            autocomplete="name"
+            required>
+        </div>
 
-    <div>
-      <label for="empresa">Empresa</label>
-      <input 
-        type="text" 
-        id="empresa" 
-        name="empresa"
-        placeholder="Nombre de tu empresa"
-        autocomplete="organization">
-    </div>
-  </div>
-  <div class="form-row">
-    <div>
-      <label for="web">Página web</label>
-      <input 
-        type="url" 
-        id="web" 
-        name="web"
-        placeholder="https://tusitio.com"
-        inputmode="url">
-    </div>
-    <div>
-      <label for="email">Email</label>
-      <input 
-        type="email" 
-        id="email" 
-        name="email"
-        placeholder="correo@empresa.com"
-        autocomplete="email"
-        required>
-    </div>
-  </div>
-  <div>
-    <label for="mensaje">Cuéntanos tu caso</label>
-    <textarea 
-      id="mensaje" 
-      name="mensaje"
-      rows="5"
-      placeholder="Describe brevemente el problema o proyecto..."></textarea>
-  </div>
+        <div>
+          <label for="empresa">Empresa</label>
+          <input 
+            type="text" 
+            id="empresa" 
+            name="empresa"
+            placeholder="Nombre de tu empresa"
+            autocomplete="organization">
+        </div>
+      </div>
 
-  <button type="submit">
-    Enviar mensaje
-  </button>
-</form>
+      <div class="form-row">
+        <div>
+          <label for="web">Página web</label>
+          <input 
+            type="url" 
+            id="web" 
+            name="web"
+            placeholder="https://tusitio.com"
+            inputmode="url">
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input 
+            type="email" 
+            id="email" 
+            name="email"
+            placeholder="correo@empresa.com"
+            autocomplete="email"
+            required>
+        </div>
+      </div>
+
+      <div>
+        <label for="mensaje">Cuéntanos tu caso</label>
+        <textarea 
+          id="mensaje" 
+          name="mensaje"
+          rows="5"
+          placeholder="Describe brevemente el problema o proyecto..."></textarea>
+      </div>
+
+      <button type="submit">
+        Enviar mensaje
+      </button>
+    </form>
   </div>
 </section>
 
