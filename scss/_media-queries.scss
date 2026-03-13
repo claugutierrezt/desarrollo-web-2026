@@ -72,6 +72,17 @@
   }
 }
 
+@include mobile {
+  .imagen-hero-home {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    flex: 0 1 auto;
+    max-height: 340px;
+    object-fit: contain;
+  }
+}
+
 /* =========================
    VIDEO IFRAME
 ==========================*/
