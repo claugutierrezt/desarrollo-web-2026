@@ -73,6 +73,17 @@
 }
 
 /* =========================
+   VIDEO IFRAME
+==========================*/
+
+   @include mobile {
+  .contacto-video iframe {
+    max-width: 100%;
+    height: 500px;
+  }
+}
+
+/* =========================
    AJUSTES RESPONSIVE PARA TABLET
    ========================= */
 
